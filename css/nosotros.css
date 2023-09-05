@@ -1,0 +1,76 @@
+body{
+  background-image: url(../img/27475-blancos.jpg);
+}
+.container {
+    display: flex;
+    align-items: center;
+    
+  }
+.gif {
+  box-shadow: 0px -6px 15px 0px black;
+  border: solid black;
+       border-top-left-radius: 5%;
+       border-bottom-left-radius: 5%;
+       border-top-right-radius: 5%;
+   border-bottom-right-radius: 5%;
+}
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .x{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .z{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    flex: 1;
+    padding: 20px;
+    border-radius: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+ 
+  }
+
+  .text {
+    clear: both;
+    padding-top: 20px;
+  }
+.intento {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+  }
+.prueba123 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(72, 7, 133);
+}
+.logo{
+  width: 30px;
+}

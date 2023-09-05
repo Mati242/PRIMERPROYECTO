@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="../css/Register.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="16x16"  href="../img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>Productos</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Index.html"><img class="logo img-fluid" src="../img/LOGO.png" alt="No se pudo cargar la imagen"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="login.html">Login</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Pages/productos.html">BUZOS</a></li>
+              <li><a class="dropdown-item" href="../Pages/productos 2.html">REMERAS</a></li>
+              <li><a class="dropdown-item" href="../Pages/productos 3.html">PANTALONES</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Acerca de Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./contactos.html">Contacto</a>
+          </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="./carrito.html">
+            <img class="img-fluid" src="../img/carrito1.ico" alt="No se pudo cargar la imagen" width="30" height="24">
+          </a>
+        </li>
+        </ul>  
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <a href="Error404.html" class="btn btn-primary" type="submit">Buscar</a>
+        </form>
+      </div>
+    </div>
+  </nav> <hr>
+  <div class="container m-5 p-0 fondo">
+    <div class="row">
+      <div class="col-12">
+   <section id="buzos">
+    <div class="card-group">
+       <div class="card" style="width: 10rem;">
+        <div class="row ">
+            <div class="col-4">
+            <img src="../img/Buzo Audi 1-20.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="ab('/img/Buzo Audi 1-20.jpg')">
+            <img src="../img/Buzo Audi 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="ab('/img/Buzo Audi 2-2.jpg')">
+            </div>
+            <div class="col-8">
+                <img src="../img/Buzo Audi 1-20.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="imagen-grande">     
+
+            </div>            
+        </div>
+        <div class="card-body">
+          <br>
+          <h5 class="card-title"><a href="detalleproducto.html">BUZO</a></h5>
+          <p class="card-text">PRECIO $6000</p>
+          <p>Elija el talle
+          <select name="" id="">
+            <option value="s">S</option>
+            <option value="s">M</option>
+            <option value="s">L</option>
+            <option value="s">XL</option>
+          </select>&nbsp &nbsp
+          <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 10rem; ">
+        <div class="row ">
+          <div class="col-4">
+          <img src="../img/Buzo ejempl 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="bc('/img/Buzo ejempl 1-2.jpg')">
+          <img src="../img/Buzo ejempl 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="bc('/img/Buzo ejempl 2-2.jpg')">
+          </div>
+          <div class="col-8">
+              <img src="../img/Buzo Audi 1-20.jpg" alt="imagen seleccionada 1" class="w-100 img-fluid" id="imagen-grande1">     
+              
+          </div>            
+      </div>
+        <div class="card-body">
+          <h5 class="card-title"><a href="./detallepro2.html">BUZO</a></h5>
+          <p class="card-text">PRECIO $6000</p>
+          <p>Elija el talle
+          <select name="" id="">
+            <option value="s">S</option>
+            <option value="s">M</option>
+            <option value="s">L</option>
+            <option value="s">XL</option>
+          </select>&nbsp &nbsp
+          <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+          </p>
+        </div>
+    </div>
+    <div class="card" style="width: 10rem;">
+      <div class="row ">
+        <div class="col-4">
+        <img src="../img/Buzo Gan 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="cd('/img/Buzo Gan 1-2.jpg')">
+        <img src="../img/Buzo Gan 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="cd('/img/Buzo Gan 2-2.jpg')">
+        </div>
+        <div class="col-8">
+            <img src="../img/Buzo Gan 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="imagen-grande2">     
+            
+        </div>            
+    </div>
+        <div class="card-body">
+          <h5 class="card-title">BUZO</h5>
+          <p class="card-text">PRECIO $6000</p>
+          <p>Elija el talle
+          <select name="" id="">
+            <option value="s">S</option>
+            <option value="s">M</option>
+            <option value="s">L</option>
+            <option value="s">XL</option>
+          </select>&nbsp &nbsp
+          <a href="./carrito.html" class="btn btn-primary">Agregar al carrito</a>
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 10rem;">
+        <div class="row ">
+          <div class="col-4">
+          <img src="../img/Buzo Nasa 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="de('/img/Buzo Nasa 1-2.jpg')">
+          <img src="../img/Buzo Nasa 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="de('/img/Buzo Nasa 2-2.jpg')">
+          </div>
+          <div class="col-8">
+              <img src="../img/Buzo Nasa 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="imagen-grande3">     
+
+          </div>            
+      </div>
+        <div class="card-body" >
+          <h5 class="card-title">BUZO</h5>
+          <p class="card-text">PRECIO $6000</p>
+          <p>Elija el talle
+          <select name="" id="">
+            <option value="s">S</option>
+            <option value="s">M</option>
+            <option value="s">L</option>
+            <option value="s">XL</option>
+          </select>&nbsp &nbsp
+          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="card-group">
+      <div class="card" style="width: 10rem;">
+       <div class="row ">
+           <div class="col-4">
+           <img src="../img/Buzo Off With 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="ef('/img/Buzo Off With 1-2.jpg')">
+           <img src="../img/Buzo Off With 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="ef('/img/Buzo Off With 2-2.jpg')">
+           </div>
+           <div class="col-8">
+               <img src="../img/Buzo Off With 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="imagen-grande4">     
+
+           </div>            
+       </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+     <div class="card" style="width: 10rem; ">
+       <div class="row ">
+         <div class="col-4">
+         <img src="../img/Buzo Scania 1-2.jpg" alt="imagen 1" class="mb-3 img-fluid" onclick="fg('/img/Buzo Scania 1-2.jpg')" >
+         <img src="../img/Buzo Scania 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="fg('/img/Buzo Scania 2-2.jpg')">
+         </div>
+         <div class="col-8">
+             <img src="../img/Buzo Scania 1-2.jpg" alt="imagen seleccionada 5 " class="w-100 img-fluid" id="torre">     
+
+         </div>            
+     </div>
+       <div class="card-body" >
+        <br>
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+   </div>
+   <div class="card" style="width: 10rem;">
+     <div class="row ">
+       <div class="col-4">
+       <img src="../img/Buzo Take Over 1-2.jpg" alt="tz" class="mb-3 img-fluid" onclick="gh('/img/Buzo Take Over 1-2.jpg')">
+       <img src="../img/Buzo Take Over 2-2.jpg" alt="ew" class="mb-3 img-fluid" onclick="gh('/img/Buzo Take Over 2-2.jpg')">
+       </div>
+       <div class="col-8">
+           <img src="../img/Buzo Take Over 1-2.jpg" alt="sarasa" class="w-100 img-fluid" id="alfil">     
+
+       </div>            
+   </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+     <div class="card" style="width: 10rem;">
+       <div class="row ">
+         <div class="col-4">
+         <img src="../img/Buzo Team Since 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="hi('/img/Buzo Team Since 1-2.jpg')">
+         <img src="../img/Buzo Team Since 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="hi('/img/Buzo Team Since 2-2.jpg')">
+         </div>
+         <div class="col-8">
+             <img src="../img/Buzo Team Since 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="peon">     
+
+         </div>            
+     </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+   </div>
+   <div class="card-group">
+    <div class="card" style="width: 10rem;">
+     <div class="row ">
+         <div class="col-4">
+         <img src="../img/Buzo Hopeles 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="ij('/img/Buzo Hopeles 1-2.jpg')">
+         <img src="../img/Buzo Hopeles 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="ij('/img/Buzo Hopeles 2-2.jpg')">
+         </div>
+         <div class="col-8">
+             <img src="../img/Buzo Hopeles 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="torre1">     
+
+         </div>            
+     </div>
+     <div class="card-body">
+       <h5 class="card-title">Card title</h5>
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <p>Elija el talle
+       <select name="" id="">
+         <option value="s">S</option>
+         <option value="s">M</option>
+         <option value="s">L</option>
+         <option value="s">XL</option>
+       </select>&nbsp &nbsp
+       <a href="#" class="btn btn-primary">Agregar al carrito</a>
+       </p>
+     </div>
+   </div>
+   <div class="card" style="width: 10rem; ">
+     <div class="row ">
+       <div class="col-4">
+       <img src="../img/Buzo Money 1-2.jpg" alt="imagen 1" class="mb-3 img-fluid" onclick="jk('/img/Buzo Money 1-2.jpg')" >
+       <img src="../img/Buzo Moner 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="jk('/img/Buzo Moner 2-2.jpg')">
+       </div>
+       <div class="col-8">
+           <img src="../img/Buzo Money 1-2.jpg" alt="imagen seleccionada 5 " class="w-100 img-fluid" id="alfil1">     
+
+       </div>            
+   </div>
+     <div class="card-body">
+       <h5 class="card-title">Card title</h5>
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <p>Elija el talle
+       <select name="" id="">
+         <option value="s">S</option>
+         <option value="s">M</option>
+         <option value="s">L</option>
+         <option value="s">XL</option>
+       </select>&nbsp &nbsp
+       <a href="#" class="btn btn-primary">Agregar al carrito</a>
+       </p>
+     </div>
+ </div>
+ <div class="card" style="width: 10rem;">
+   <div class="row ">
+     <div class="col-4">
+     <img src="../img/Buzo Unlucky 1-2.jpg" alt="tz" class="mb-3 img-fluid" onclick="kl('/img/Buzo Unlucky 1-2.jpg')">
+     <img src="../img/Buzo Unlucky 2-2.jpg" alt="ew" class="mb-3 img-fluid" onclick="kl('/img/Buzo Unlucky 2-2.jpg')">
+     </div>
+     <div class="col-8">
+         <img src="../img/Buzo Unlucky 1-2.jpg" alt="sarasa" class="w-100 img-fluid" id="peon1">     
+
+     </div>            
+ </div>
+     <div class="card-body">
+       <h5 class="card-title">Card title</h5>
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <p>Elija el talle
+       <select name="" id="">
+         <option value="s">S</option>
+         <option value="s">M</option>
+         <option value="s">L</option>
+         <option value="s">XL</option>
+       </select>&nbsp &nbsp
+       <a href="#" class="btn btn-primary">Agregar al carrito</a>
+       </p>
+     </div>
+   </div>
+   <div class="card" style="width: 10rem;">
+     <div class="row ">
+       <div class="col-4">
+       <img src="../img/Buzo Seilor 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="lm('/img/Buzo Seilor 1-2.jpg')">
+       <img src="../img/Buzo Seilor 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="lm('/img/Buzo Seilor 2-2.jpg')">
+       </div>
+       <div class="col-8">
+           <img src="../img/Buzo Seilor 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="torre2">     
+
+       </div>            
+   </div>
+     <div class="card-body" >
+      <br>
+       <h5 class="card-title">Card title</h5>
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <p>Elija el talle
+       <select name="" id="">
+         <option value="s">S</option>
+         <option value="s">M</option>
+         <option value="s">L</option>
+         <option value="s">XL</option>
+       </select>&nbsp &nbsp
+       <a href="#" class="btn btn-primary">Agregar al carrito</a>
+       </p>
+     </div>
+   </div>
+ </div>
+   </section>
+   
+   <section id="remeras">
+    <div class="card-group">
+      <div class="card" style="width: 10rem;">
+       <div class="row ">
+           <div class="col-4">
+           <img src="../img/Buzo Audi 1-20.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera1('/img/Buzo Audi 1-20.jpg')">
+           <img src="../img/Buzo Audi 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera1('/img/Buzo Audi 2-2.jpg')">
+           </div>
+           <div class="col-8">
+               <img src="../img/Buzo Audi 1-20.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="remera1">     
+  
+           </div>            
+       </div>
+       <div class="card-body" >
+        <br>
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+     <div class="card" style="width: 10rem; ">
+       <div class="row ">
+         <div class="col-4">
+         <img src="../img/Buzo ejempl 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera2('/img/Buzo ejempl 1-2.jpg')">
+         <img src="../img/Buzo ejempl 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera2('/img/Buzo ejempl 2-2.jpg')">
+         </div>
+         <div class="col-8">
+             <img src="../img/Buzo Audi 1-20.jpg" alt="imagen seleccionada 1" class="w-100 img-fluid" id="remera2">     
+  
+         </div>            
+     </div>
+       <div class="card-body">
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+   </div>
+   <div class="card" style="width: 10rem;">
+     <div class="row ">
+       <div class="col-4">
+       <img src="../img/Buzo Gan 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera3('/img/Buzo Gan 1-2.jpg')">
+       <img src="../img/Buzo Gan 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera3('/img/Buzo Gan 2-2.jpg')">
+       </div>
+       <div class="col-8">
+           <img src="../img/Buzo Gan 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="remera3">     
+  
+       </div>            
+   </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+     <div class="card" style="width: 10rem;">
+       <div class="row ">
+         <div class="col-4">
+         <img src="../img/Buzo Nasa 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera4('/img/Buzo Nasa 1-2.jpg')">
+         <img src="../img/Buzo Nasa 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera4('/img/Buzo Nasa 2-2.jpg')">
+         </div>
+         <div class="col-8">
+             <img src="../img/Buzo Nasa 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="remera4">     
+  
+         </div>            
+     </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+   </div>
+   <div class="card-group">
+     <div class="card" style="width: 10rem;">
+      <div class="row ">
+          <div class="col-4">
+          <img src="../img/Buzo Off With 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera5('/img/Buzo Off With 1-2.jpg')">
+          <img src="../img/Buzo Off With 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera5('/img/Buzo Off With 2-2.jpg')">
+          </div>
+          <div class="col-8">
+              <img src="../img/Buzo Off With 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="remera5">     
+  
+          </div>            
+      </div>
+      <div class="card-body" >
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 10rem; ">
+      <div class="row ">
+        <div class="col-4">
+        <img src="../img/Buzo Scania 1-2.jpg" alt="imagen 1" class="mb-3 img-fluid" onclick="remera6('/img/Buzo Scania 1-2.jpg')" >
+        <img src="../img/Buzo Scania 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera6('/img/Buzo Scania 2-2.jpg')">
+        </div>
+        <div class="col-8">
+            <img src="../img/Buzo Scania 1-2.jpg" alt="imagen seleccionada 5 " class="w-100 img-fluid" id="remera6">     
+  
+        </div>            
+    </div>
+      <div class="card-body">
+        <br>
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+  </div>
+  <div class="card" style="width: 10rem;">
+    <div class="row ">
+      <div class="col-4">
+      <img src="../img/Buzo Take Over 1-2.jpg" alt="tz" class="mb-3 img-fluid" onclick="remera7('/img/Buzo Take Over 1-2.jpg')">
+      <img src="../img/Buzo Take Over 2-2.jpg" alt="ew" class="mb-3 img-fluid" onclick="remera7('/img/Buzo Take Over 2-2.jpg')">
+      </div>
+      <div class="col-8">
+          <img src="../img/Buzo Take Over 1-2.jpg" alt="sarasa" class="w-100 img-fluid" id="remera7">     
+  
+      </div>            
+  </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 10rem;">
+      <div class="row ">
+        <div class="col-4">
+        <img src="../img/Buzo Team Since 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera8('/img/Buzo Team Since 1-2.jpg')">
+        <img src="../img/Buzo Team Since 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera8('/img/Buzo Team Since 2-2.jpg')">
+        </div>
+        <div class="col-8">
+            <img src="../img/Buzo Team Since 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="remera8">     
+  
+        </div>            
+    </div>
+      <div class="card-body" >
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-group">
+   <div class="card" style="width: 10rem;">
+    <div class="row ">
+        <div class="col-4">
+        <img src="../img/Buzo Hopeles 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera9('/img/Buzo Hopeles 1-2.jpg')">
+        <img src="../img/Buzo Hopeles 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera9('/img/Buzo Hopeles 2-2.jpg')">
+        </div>
+        <div class="col-8">
+            <img src="../img/Buzo Hopeles 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="remera9">     
+  
+        </div>            
+    </div>
+    <div class="card-body" >
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10rem; ">
+    <div class="row ">
+      <div class="col-4">
+      <img src="../img/Buzo Money 1-2.jpg" alt="imagen 1" class="mb-3 img-fluid" onclick="remera10('/img/Buzo Money 1-2.jpg')" >
+      <img src="../img/Buzo Moner 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera10('/img/Buzo Moner 2-2.jpg')">
+      </div>
+      <div class="col-8">
+          <img src="../img/Buzo Money 1-2.jpg" alt="imagen seleccionada 5 " class="w-100 img-fluid" id="remera10">     
+  
+      </div>            
+  </div>
+    <div class="card-body" >
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10rem;">
+  <div class="row ">
+    <div class="col-4">
+    <img src="../img/Buzo Unlucky 1-2.jpg" alt="tz" class="mb-3 img-fluid" onclick="remera11('/img/Buzo Unlucky 1-2.jpg')">
+    <img src="../img/Buzo Unlucky 2-2.jpg" alt="ew" class="mb-3 img-fluid" onclick="remera11('/img/Buzo Unlucky 2-2.jpg')">
+    </div>
+    <div class="col-8">
+        <img src="../img/Buzo Unlucky 1-2.jpg" alt="sarasa" class="w-100 img-fluid" id="remera11">     
+  
+    </div>            
+  </div>
+    <div class="card-body" >
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10rem;">
+    <div class="row ">
+      <div class="col-4">
+      <img src="../img/Buzo Seilor 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="remera12('/img/Buzo Seilor 1-2.jpg')">
+      <img src="../img/Buzo Seilor 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="remera12('/img/Buzo Seilor 2-2.jpg')">
+      </div>
+      <div class="col-8">
+          <img src="../img/Buzo Seilor 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="remera12">     
+  
+      </div>            
+  </div>
+    <div class="card-body" >
+      <br>
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  </div>
+
+   </section>
+
+   <section id="pantalones">
+    <div class="card-group">
+      <div class="card" style="width: 10rem;">
+       <div class="row ">
+           <div class="col-4">
+           <img src="../img/Buzo Audi 1-20.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones1('/img/Buzo Audi 1-20.jpg')">
+           <img src="../img/Buzo Audi 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones1('/img/Buzo Audi 2-2.jpg')">
+           </div>
+           <div class="col-8">
+               <img src="../img/Buzo Audi 1-20.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="pantalones1">     
+  
+           </div>            
+       </div>
+       <div class="card-body" >
+        <br>
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+     <div class="card" style="width: 10rem; ">
+       <div class="row ">
+         <div class="col-4">
+         <img src="../img/Buzo ejempl 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones2('/img/Buzo ejempl 1-2.jpg')">
+         <img src="../img/Buzo ejempl 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones2('/img/Buzo ejempl 2-2.jpg')">
+         </div>
+         <div class="col-8">
+             <img src="../img/Buzo Audi 1-20.jpg" alt="imagen seleccionada 1" class="w-100 img-fluid" id="pantalones2">     
+  
+         </div>            
+     </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+   </div>
+   <div class="card" style="width: 10rem;">
+     <div class="row ">
+       <div class="col-4">
+       <img src="../img/Buzo Gan 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones3('/img/Buzo Gan 1-2.jpg')">
+       <img src="../img/Buzo Gan 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones3('/img/Buzo Gan 2-2.jpg')">
+       </div>
+       <div class="col-8">
+           <img src="../img/Buzo Gan 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="pantalones3">     
+  
+       </div>            
+   </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+     <div class="card" style="width: 10rem;">
+       <div class="row ">
+         <div class="col-4">
+         <img src="../img/Buzo Nasa 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones4('/img/Buzo Nasa 1-2.jpg')">
+         <img src="../img/Buzo Nasa 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones4('/img/Buzo Nasa 2-2.jpg')">
+         </div>
+         <div class="col-8">
+             <img src="../img/Buzo Nasa 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="pantalones4">     
+  
+         </div>            
+     </div>
+       <div class="card-body" >
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p>Elija el talle
+         <select name="" id="">
+           <option value="s">S</option>
+           <option value="s">M</option>
+           <option value="s">L</option>
+           <option value="s">XL</option>
+         </select>&nbsp &nbsp
+         <a href="#" class="btn btn-primary">Agregar al carrito</a>
+         </p>
+       </div>
+     </div>
+   </div>
+   <div class="card-group">
+     <div class="card" style="width: 10rem;">
+      <div class="row ">
+          <div class="col-4">
+          <img src="../img/Buzo Off With 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones5('/img/Buzo Off With 1-2.jpg')">
+          <img src="../img/Buzo Off With 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones5('/img/Buzo Off With 2-2.jpg')">
+          </div>
+          <div class="col-8">
+              <img src="../img/Buzo Off With 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="pantalones5">     
+  
+          </div>            
+      </div>
+      <div class="card-body" >
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 10rem; ">
+      <div class="row ">
+        <div class="col-4">
+        <img src="../img/Buzo Scania 1-2.jpg" alt="imagen 1" class="mb-3 img-fluid" onclick="pantalones6('/img/Buzo Scania 1-2.jpg')" >
+        <img src="../img/Buzo Scania 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones6('/img/Buzo Scania 2-2.jpg')">
+        </div>
+        <div class="col-8">
+            <img src="../img/Buzo Scania 1-2.jpg" alt="imagen seleccionada 5 " class="w-100 img-fluid" id="pantalones6">     
+  
+        </div>            
+    </div>
+      <div class="card-body">
+        <br>
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+  </div>
+  <div class="card" style="width: 10rem;">
+    <div class="row ">
+      <div class="col-4">
+      <img src="../img/Buzo Take Over 1-2.jpg" alt="tz" class="mb-3 img-fluid" onclick="pantalones7('/img/Buzo Take Over 1-2.jpg')">
+      <img src="../img/Buzo Take Over 2-2.jpg" alt="ew" class="mb-3 img-fluid" onclick="pantalones7('/img/Buzo Take Over 2-2.jpg')">
+      </div>
+      <div class="col-8">
+          <img src="../img/Buzo Take Over 1-2.jpg" alt="sarasa" class="w-100 img-fluid" id="pantalones7">     
+  
+      </div>            
+  </div>
+      <div class="card-body" >
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 10rem;">
+      <div class="row ">
+        <div class="col-4">
+        <img src="../img/Buzo Team Since 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones8('/img/Buzo Team Since 1-2.jpg')">
+        <img src="../img/Buzo Team Since 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones8('/img/Buzo Team Since 2-2.jpg')">
+        </div>
+        <div class="col-8">
+            <img src="../img/Buzo Team Since 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="pantalones8">     
+  
+        </div>            
+    </div>
+      <div class="card-body" >
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p>Elija el talle
+        <select name="" id="">
+          <option value="s">S</option>
+          <option value="s">M</option>
+          <option value="s">L</option>
+          <option value="s">XL</option>
+        </select>&nbsp &nbsp
+        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-group">
+   <div class="card" style="width: 10rem;">
+    <div class="row ">
+        <div class="col-4">
+        <img src="../img/Buzo Hopeles 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones9('/img/Buzo Hopeles 1-2.jpg')">
+        <img src="../img/Buzo Hopeles 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones9('/img/Buzo Hopeles 2-2.jpg')">
+        </div>
+        <div class="col-8">
+            <img src="../img/Buzo Hopeles 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="pantalones9">     
+  
+        </div>            
+    </div>
+    <div class="card-body" >
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10rem; ">
+    <div class="row ">
+      <div class="col-4">
+      <img src="../img/Buzo Money 1-2.jpg" alt="imagen 1" class="mb-3 img-fluid" onclick="pantalones10('/img/Buzo Money 1-2.jpg')" >
+      <img src="../img/Buzo Moner 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones10('/img/Buzo Moner 2-2.jpg')">
+      </div>
+      <div class="col-8">
+          <img src="../img/Buzo Money 1-2.jpg" alt="imagen seleccionada 5 " class="w-100 img-fluid" id="pantalones10">     
+  
+      </div>            
+  </div>
+    <div class="card-body" >
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10rem;">
+  <div class="row ">
+    <div class="col-4">
+    <img src="../img/Buzo Unlucky 1-2.jpg" alt="tz" class="mb-3 img-fluid" onclick="pantalones11('/img/Buzo Unlucky 1-2.jpg')">
+    <img src="../img/Buzo Unlucky 2-2.jpg" alt="ew" class="mb-3 img-fluid" onclick="pantalones11('/img/Buzo Unlucky 2-2.jpg')">
+    </div>
+    <div class="col-8">
+        <img src="../img/Buzo Unlucky 1-2.jpg" alt="sarasa" class="w-100 img-fluid" id="pantalones11">     
+  
+    </div>            
+  </div>
+    <div class="card-body" >
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10rem;">
+    <div class="row ">
+      <div class="col-4">
+      <img src="../img/Buzo Seilor 1-2.jpg" alt="imgaen 1" class="mb-3 img-fluid" onclick="pantalones12('/img/Buzo Seilor 1-2.jpg')">
+      <img src="../img/Buzo Seilor 2-2.jpg" alt="imagen 2" class="mb-3 img-fluid" onclick="pantalones12('/img/Buzo Seilor 2-2.jpg')">
+      </div>
+      <div class="col-8">
+          <img src="../img/Buzo Seilor 1-2.jpg" alt="imagen seleccionada" class="w-100 img-fluid" id="pantalones12">     
+  
+      </div>            
+  </div>
+    <div class="card-body" >
+      <br>
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p>Elija el talle
+      <select name="" id="">
+        <option value="s">S</option>
+        <option value="s">M</option>
+        <option value="s">L</option>
+        <option value="s">XL</option>
+      </select>&nbsp &nbsp
+      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+      </p>
+    </div>
+  </div>
+  </div>
+
+   </section>  
+      </div>
+    </div>
+    <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="./productos.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="./productos 3.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="./productos 2.html">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="./productos 3.html">Proximo</a>
+    </li>
+  </ul>
+</nav>
+    <footer class="pie">
+      <div class="container-fluid text-center">
+          <div class="row justify-content-center">   
+              <div class="col2 col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4"> <strong>Redes Sociales</strong><br><a href="https://www.instagram.com/"><img src="../img/Logo/Insta logo.png" alt="No se pudo cargar la imagen"></a><a href="https://es-la.facebook.com/"><img src="../img/Logo/Face logo.png" alt="No se pudo cargar la imagen"></a><br><a href="https://twitter.com/?lang=es"><img src="../img/Logo/twitter logo.png" alt=""></a><a href="https://web.whatsapp.com/"><img src="../img/Logo/whatsapp logo.png" alt="No se pudo cargar la imagen"></a><br></div>
+              <div class="col1 col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4"><img class="img-fluid" src="../img/LOGO.png" alt="" width="50px"></div>
+              <div class="col3 col-12 col-lg-4 col-xl-4 col-xxl-4"> <strong>Acerca de</strong> 
+                <br> <a href="Error404.html">Políticas de Privacidad</a>
+                <br><a href="Error404.html">Quiénes Somos</a>
+                <br><a href="Error404.html">Protocolos COVID-19</a>
+                <br><a href="Error404.html">Términos y Condiciones</a>
+                <br><a href="Error404.html">Sustentabilidad</a>
+                <br><a href="Error404.html">Defensa del Cosumidor</a>                                     
+                </div>
+          </div>  
+    </footer>
+       
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script src="/prueba.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    background-image: url(../img/27475-blancos.jpg);
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-image: url(../img/27475-blancos.jpg);
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.total {
+    text-align: right;
+    margin: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.error-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+
+.continue-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+.ejemplo333 {
+    width: 500px;
+    height: 500px;
+    height: auto;
+}
+.pago333 {
+    width:100px;
+    height:100px;
+}
+.logo{
+    width: 30px;
+}
+
+ /*footer*/
+ .logo1 {
+    width: 20vh;
+    height: 20vh;
+}
+.redes {
+    margin-right: 5px;
+}
+.col1 {
+    padding: 4vh;
+}
+h1{
+    text-align: center;
+}

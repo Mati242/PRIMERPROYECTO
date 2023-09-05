@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/27475-blancos.jpg);
+    margin: 0;
+    padding: 30vh;
+    height: 100vh;
+    }
+    
+    .logo{
+        width: 5vh;
+        height: 5vh;
+    }
+    
+    .logo1 {
+        width: 20vh;
+        height: 20vh;
+    }
+    .redes {
+        margin-right: 5px;
+    }
+    .col1 {
+        padding: 4vh;
+    }

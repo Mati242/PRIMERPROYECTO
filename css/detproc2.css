@@ -1,0 +1,40 @@
+body {
+    background-image: url(../img/27475-blancos.jpg);
+}
+.logo{
+    width: 5vh;
+    height: 5vh;
+}
+.contanier-fluid {
+    margin: 10vh;
+}
+
+.col11, .col22 {
+    height: 130vh;
+  }
+
+.carrusel {
+    height: 85vh;
+}
+.precio {
+    font-size: 5vh;
+}
+
+#cantidad {
+    width: 8vh;
+    border-radius: 10%;
+}
+
+
+
+/*footer*/
+.logo1 {
+    width: 20vh;
+    height: 20vh;
+}
+.redes {
+    margin-right: 5px;
+}
+.col1 {
+    padding: 4vh;
+}
